@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <!-- 
+      <noscript> показывает своё содержимое, если браузер не поддерживает работу со скриптами или их поддержка отключена пользователем. 
+      В остальных случаях браузер игнорирует этот элемент и всё, что располагается внутри него. Скрипты< noscript> Текст</ noscript>. 
+     -->
+    <noscript>
+      <strong>Сожалеем, но <%= htmlWebpackPlugin.options.title %> не работает должным образом без включенного JavaScript. Пожалуйста, активируйте для продолжения.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- встроенные файлы будут автоматически внедрены -->
+  </body>
+</html>
