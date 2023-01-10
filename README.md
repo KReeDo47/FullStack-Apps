@@ -25,4 +25,3 @@ npm run serve
 MySQL
 ```
 ## [Подробнее о проекте](https://mfikri.com/en/blog/nodejs-express-mysql-vue)
-
